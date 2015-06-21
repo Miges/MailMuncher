@@ -1,0 +1,14 @@
+<head>
+  <title>mailmuncher</title>
+</head>
+
+<body>
+  <h1>Welcome to the mail muncher</h1>
+{{> mailmuncher}}
+</body>
+
+<template name="mailmuncher">
+	{{#each messages}}
+			{{this}}
+		{{/each}}
+</template>
